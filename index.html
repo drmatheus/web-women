@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/globalStyles.css">
+  <link rel="stylesheet" href="./pages/home/index.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <title>Webwomen</title>
+  <meta name="description" content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?" />
+</head>
+
+<body>
+
+  <header class="header mobileHeader">
+    <div class="container flex column gapRow3">
+      <img class="logo" src="./assets/img/logo.svg" alt="">
+      <div class="flex column gapRow2">
+        <h1 class="title1">Lugar de mulher é onde ela quiser!</h1>
+        <p class="text1">
+          Está procurando oportunidades de estágio, emprego ou bolsas de estudo?<br>
+          Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?
+        </p>
+        <p class="title4">
+          Confere aqui embaixo o que temos pra você!
+        </p>
+      </div>
+      <a href="#jobs" class="flex button">
+      <button  class="button">Ir para seção das vagas</button>
+    </a>
+    </div>
+  </header>
+  <main class="container flex spaceBetween  columnGap1 mobileWrap">
+    <section id="jobs" class="jobsList ">
+      <h2 class="title2 padding">Vagas</h2>
+      <ul id="listJobs" class="flex column gapRow2">        
+      </ul>
+    </section>
+    <aside class="jobsSelectedsList">
+
+      <h2 class="title2 titleSelecteds">Vagas selecionadas</h2>
+      <ul id="mySelection">
+      </ul>
+    </aside>
+
+  </main>
+  <script src="./pages/home/jobsData.js"></script>
+  <script src="./pages/home/index.js"></script>
+</body>
+
+</html>
