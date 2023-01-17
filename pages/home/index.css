@@ -120,6 +120,10 @@
   margin-bottom: 3px;
 }
 
+.jobOffertSelected:last-child {
+  margin-bottom: 0px;
+}
+
 .jobOffertSelected:hover {
   background-color: var(--color-grey-5);
 }
@@ -127,7 +131,7 @@
 #mySelection {
   max-height: 80vh;
   overflow-y: scroll;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 a {
