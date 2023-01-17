@@ -83,6 +83,7 @@
 
 .jobsList {
   width: 818px;
+  padding-bottom: 24px;
 }
 
 .jobType {
@@ -170,6 +171,7 @@ main {
 
   .jobsList {
     width: 95vw;
+    padding-bottom: 0px;
   }
 
   .jobsSelectedsList {
